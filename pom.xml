@@ -16,15 +16,15 @@
 
     <scm>
         <connection>scm:git:https://github.com/arend-von-reinersdorff/com.arendvr.example.multimodule.git</connection>
-        <!-- <developerConnection>scm:svn:https://127.0.0.1/svn/my-project</developerConnection> -->
-        <!-- <tag>HEAD</tag> -->
-        <!-- <url>http://127.0.0.1/websvn/my-project</url> -->
     </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
+
+        <!-- Release -->
+        <autoVersionSubmodules>true</autoVersionSubmodules>
 
         <!-- SonarQube coverage -->
         <jacoco.append>true</jacoco.append>
