@@ -3,7 +3,7 @@
 
     <groupId>com.arendvr.example.multimodule</groupId>
     <artifactId>multimodule</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -14,7 +14,7 @@
 
     <scm>
         <connection>scm:git:https://github.com/arend-von-reinersdorff/com.arendvr.example.multimodule.git</connection>
-        <tag>HEAD</tag>
+        <tag>multimodule-1.0.1</tag>
   </scm>
 
     <properties>
