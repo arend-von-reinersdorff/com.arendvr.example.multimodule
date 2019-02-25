@@ -14,7 +14,7 @@
 
     <scm>
         <connection>scm:git:https://github.com/arend-von-reinersdorff/com.arendvr.example.multimodule.git</connection>
-      <tag>HEAD</tag>
+        <tag>HEAD</tag>
   </scm>
 
     <properties>
