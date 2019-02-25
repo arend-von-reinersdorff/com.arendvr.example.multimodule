@@ -4,15 +4,22 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.arendvr.example.multimodule</groupId>
-    <artifactId>com.arendvr.example.multimodule</artifactId>
+    <artifactId>multimodule</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>greeter</module>
-        <module>polite</module>
-        <module>rude</module>
+        <module>multimodule-greeter</module>
+        <module>multimodule-polite</module>
+        <module>multimodule-rude</module>
     </modules>
+
+    <scm>
+        <connection>scm:git:https://github.com/arend-von-reinersdorff/com.arendvr.example.multimodule.git</connection>
+        <!-- <developerConnection>scm:svn:https://127.0.0.1/svn/my-project</developerConnection> -->
+        <!-- <tag>HEAD</tag> -->
+        <!-- <url>http://127.0.0.1/websvn/my-project</url> -->
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
